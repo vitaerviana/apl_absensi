@@ -147,6 +147,7 @@
             android:paddingLeft="0dp"
 
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -162,6 +163,7 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="#FFFFFF"
             android:text="Login"
+            android:onClick="itu"
             android:textColor="#13E14C"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
