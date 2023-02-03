@@ -179,6 +179,7 @@
         android:layout_marginTop="4dp"
         android:backgroundTint="#757474"
         android:text="X"
+        android:onClick="exitAppCLICK"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.955"

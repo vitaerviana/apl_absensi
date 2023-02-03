@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.CheckBox
 
 class MainActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,5 +18,10 @@ class MainActivity3 : AppCompatActivity() {
     fun itu(view: View){
         val firli = Intent(this,MainActivity4::class.java)
         startActivity(firli)
+    }
+
+    fun exitAppCLICK(view: View?) {
+        finishAffinity()
+        System.exit(0)
     }
 }
